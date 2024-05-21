@@ -1,0 +1,31 @@
+.dropdown {
+  /* display: none; */
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 250px;
+  list-style-type: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.dropdown-active {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 250px;
+  list-style-type: none;
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown__item {
+margin-left: -30px;
+}
+
+.dropdown__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}

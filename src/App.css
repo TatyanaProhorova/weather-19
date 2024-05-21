@@ -45,10 +45,16 @@
   color: #1e2432;
   text-align: center;
 }
-.card {
+
+.foreCast__card {
   display: inline-block;
-  height: 60px;
-  width: 15%;
+  height: 80px;
+  width: 13%;
   border: 1px solid red;
   margin: 5px;
+}
+
+.foreCast__daily {
+    display: flex;
+    align-items: flex-start;
 }
